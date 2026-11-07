@@ -1025,7 +1025,10 @@ body.v20-home header{background:#1b2224e6;border-bottom-color:#ffffff12}
 .v19-lb-card{padding-bottom:13px}
 @media(max-width:760px){.v19-pcamwrap{transform:scale(.81)}}
 @media(max-width:520px){.v19-pcamwrap{transform:scale(.65)}}
-body.v20-home header{display:none!important}body.v20-home .v20-cover{min-height:100dvh!important}body.v20-home main{padding:0!important;margin:0!important;width:100%!important;max-width:none!important}</style><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></head><body><header><div class="brand">X ROOM｜此站不可换乘</div><div class="nav"><button onclick="go('home')">首页</button><button onclick="go('diary')">XBox</button><button onclick="go('phone')">手机</button></div></header><main id="root"></main><script>
+body.v20-home header{display:none!important}body.v20-home .v20-cover{min-height:100dvh!important}body.v20-home main{padding:0!important;margin:0!important;width:100%!important;max-width:none!important}/* Only hide the visible scrollbar in the SMS conversation; scrolling remains enabled. */
+.v7-chatbody { scrollbar-width: none !important; -ms-overflow-style: none !important; }
+.v7-chatbody::-webkit-scrollbar { display: none !important; width: 0 !important; height: 0 !important; }
+</style><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></head><body><header><div class="brand">X ROOM｜此站不可换乘</div><div class="nav"><button onclick="go('home')">首页</button><button onclick="go('diary')">XBox</button><button onclick="go('phone')">手机</button></div></header><main id="root"></main><script>
 
 let _tt,_quiet=0,_as;
 function toast(m){m=String(m);if(_quiet&&m==='已保存')m='已自动保存 ✓';let e=document.getElementById('toast');if(!e){e=document.createElement('div');e.id='toast';e.setAttribute('role','status');document.body.appendChild(e)}e.textContent=m;e.classList.add('show');clearTimeout(_tt);_tt=setTimeout(()=>e.classList.remove('show'),Math.min(6000,1800+m.length*60))}
