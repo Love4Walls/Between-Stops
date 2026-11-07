@@ -1,0 +1,2 @@
+X ROOM V9 MEDIA PACKAGE
+Upload story.json and the media folder contents to the ROOT of your GitHub repository. IMPORTANT: ZIP contains ONLY media selected in this editing session. Keep previously uploaded media files on GitHub. Do NOT upload only the HTML or only story.json. For browser playback, MP4 should use H.264 video and AAC audio. GitHub paths and filename capitalization must match story.json exactly.
